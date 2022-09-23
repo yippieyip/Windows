@@ -1,0 +1,14 @@
+Have you tried disabling Delivery Optimization and using the "normal" downloader? It's possible something gummed up on your machine that is making DO act funny.
+
+    Run winget settings.
+    In the JSON block that appears, add
+
+
+
+"network": {
+    "downloader": "wininet"
+}
+
+
+
+Now try a winget install and see if you have better results.
