@@ -312,6 +312,7 @@ echo                        VLC Media Player
 echo                        Parsec
 echo                        Bitwarden
 echo                        Github Desktop
+echo                        File Converter
 echo                        ------------------
 echo.
 
@@ -406,6 +407,7 @@ call:install VideoLAN.VLC
 call:install Parsec.Parsec
 call:install Bitwarden.Bitwarden
 call:install GitHub.GitHubDesktop.Beta
+call:install AdrienAllard.FileConverter
 echo Press any key to return to the Install Menu.
 pause >nul
 goto :installMenu
@@ -471,6 +473,7 @@ call:install LibreWolf.LibreWolf
 call:install NordVPN.NordVPN
 call:install TorProject.TorBrowser
 call:install Parsec.Parsec
+call:install AdrienAllard.FileConverter
 
 echo Press any key to return to the Install Menu.
 pause >nul
@@ -500,6 +503,7 @@ call:install VideoLAN.VLC
 call:install Parsec.Parsec
 call:install Bitwarden.Bitwarden
 call:install GitHub.GitHubDesktop.Beta
+call:install AdrienAllard.FileConverter
 call:install LibreWolf.LibreWolf
 call:install Mozilla.Thunderbird.Beta
 call:install NordVPN.NordVPN
