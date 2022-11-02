@@ -306,10 +306,8 @@ echo                        AutoHotkey
 echo                        WizTree
 echo                        Visual Studio Code
 echo                        OBS Studio
-echo                        BalenaEtcher
 echo                        qBittorrent
 echo                        VLC Media Player
-echo                        Parsec
 echo                        Bitwarden
 echo                        Github Desktop
 echo                        File Converter
@@ -338,7 +336,6 @@ echo.
 echo 5) (Office)            ------------------
 echo                        Dropbox
 echo                        Office 365 Enterprise
-echo                        OnlyOffice
 echo                        Obsidian
 echo                        Sumatra PDF
 echo                        Gimp
@@ -401,10 +398,8 @@ call:install Lexikos.AutoHotkey
 call:install AntibodySoftware.WizTree
 call:install Microsoft.VisualStudioCode
 call:install OBSProject.OBSStudio
-call:install Balena.Etcher
 call:install qBittorrent.qBittorrent
 call:install VideoLAN.VLC
-call:install Parsec.Parsec
 call:install Bitwarden.Bitwarden
 call:install GitHub.GitHubDesktop.Beta
 call:install AdrienAllard.FileConverter
@@ -433,7 +428,6 @@ goto :installMenu
 :batch7
 call:install Dropbox.Dropbox
 call:install Microsoft.Office
-call:install ONLYOFFICE.DesktopEditors
 call:install Obsidian.Obsidian
 call:install SumatraPDF.SumatraPDF
 call:install GIMP.GIMP
@@ -472,7 +466,6 @@ call:install VideoLAN.VLC
 call:install LibreWolf.LibreWolf
 call:install NordVPN.NordVPN
 call:install TorProject.TorBrowser
-call:install Parsec.Parsec
 call:install AdrienAllard.FileConverter
 
 echo Press any key to return to the Install Menu.
@@ -497,10 +490,8 @@ call:install Lexikos.AutoHotkey
 call:install AntibodySoftware.WizTree
 call:install Microsoft.VisualStudioCode
 call:install OBSProject.OBSStudio
-call:install Balena.Etcher
 call:install qBittorrent.qBittorrent
 call:install VideoLAN.VLC
-call:install Parsec.Parsec
 call:install Bitwarden.Bitwarden
 call:install GitHub.GitHubDesktop.Beta
 call:install AdrienAllard.FileConverter
@@ -514,7 +505,6 @@ call:install 9NKSQGP7F2NH :: Whatsapp
 call:install Discord.Discord
 call:install Dropbox.Dropbox
 call:install Microsoft.Office
-call:install ONLYOFFICE.DesktopEditors
 call:install Obsidian.Obsidian
 call:install SumatraPDF.SumatraPDF
 call:install GIMP.GIMP
