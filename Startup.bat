@@ -436,7 +436,7 @@ call:install VivaldiTechnologies.Vivaldi
 call:install Discord.Discord
 call:install Telegram.TelegramDesktop.Beta
 call:install Tencent.WeChat
-call:install WhatsApp.WhatsApp.Beta
+call:install 9NBDXK71NK08
 call:install Dropbox.Dropbox
 call:install GIMP.GIMP
 call:install Inkscape.Inkscape
