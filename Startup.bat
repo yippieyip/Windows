@@ -147,9 +147,6 @@ winget uninstall Microsoft.Teams
 echo Uninstalling To Dos...
 winget uninstall Microsoft.Todos_8wekyb3d8bbwe
 
-echo Uninstalling PowerAutomate Desktop...
-winget uninstall Microsoft.PowerAutomateDesktop_8wekyb3d8bbwe
-
 echo Uninstalling Bing News...
 winget uninstall Microsoft.BingNews_8wekyb3d8bbwe
 
@@ -283,81 +280,89 @@ echo                ------------
 echo.
 
 echo.
-echo 1) (Runtimes)          ------------------
+echo 1) (Clean Setup)       ------------------
+echo                        .NetFramework
 echo                        DirectX
 echo                        Visual C++
-echo                        Dot Net Framework
 echo                        ------------------
-echo.
-
-echo.
-echo 2) (Utilities)         ------------------
-echo                        EarTrumpet
-echo                        VeraCrypt
-echo                        Cryptomator
 echo                        7Zip
-echo                        Search Everything
-echo                        Notepad++
-echo                        IrfanView
-echo                        CopyQ
-echo                        BleachBit
-echo                        BulkCrapUninstaller
 echo                        AutoHotkey
-echo                        WizTree
-echo                        Visual Studio Code
-echo                        OBS Studio
-echo                        qBittorrent
-echo                        VLC Media Player
-echo                        Bitwarden
-echo                        Github Desktop
+echo                        AutoRuns
+echo                        CopyQ
+echo                        EarTrumpet
+echo                        Everything
 echo                        File Converter
+echo                        Greenshot
+echo                        PowerToys
 echo                        ------------------
-echo.
-
-echo.
-echo 3) (Internet)          ------------------
-echo                        LibreWolf.LibreWolf
-echo                        Thunderbird
-echo                        NordVPN
-echo                        Tor Browser
-echo                        ------------------
-echo.
-
-echo.
-echo 4) (Social)            ------------------
-echo                        Telegram Desktop
-echo                        Wechat Desktop
-echo                        Whatsapp Desktop
-echo                        Discord
-echo                        ------------------
-echo.
-
-echo.
-echo 5) (Office)            ------------------
-echo                        Dropbox
-echo                        Office 365 Enterprise
-echo                        Obsidian
+echo                        BleachBit
+echo                        Bulk Crap Uninstaller
+echo                        Notepad++
+echo                        PowerToys
+echo                        Rufus
 echo                        Sumatra PDF
+echo                        VLC Media Player
+echo                        WizTree
+echo                        XnViewMP
+echo                        ------------------
+echo                        Librewolf
+echo                        ------------------
+echo.
+
+echo.
+echo 2) (Complete Setup)    ------------------
+echo                        .NetFramework
+echo                        DirectX
+echo                        Visual C++
+echo                        ------------------
+echo                        7Zip
+echo                        AutoHotkey
+echo                        AutoRuns
+echo                        CopyQ
+echo                        EarTrumpet
+echo                        Everything
+echo                        File Converter
+echo                        Greenshot
+echo                        PowerToys
+echo                        ------------------
+echo                        BitWarden
+echo                        BleachBit
+echo                        Bulk Crap Uninstaller
+echo                        Cryptomator
+echo                        Github Desktop
+echo                        Notepad++
+echo                        qBittorrent
+echo                        Rufus
+echo                        Sumatra PDF
+echo                        VeraCrypt
+echo                        VLC Media Player
+echo                        WizTree
+echo                        XnViewMP
+echo                        ------------------
+echo                        Brave
+echo                        Librewolf
+echo                        NordVPN
+echo                        ThunderBird
+echo                        TorBrowser
+echo                        Vivaldi
+echo                        ------------------
+echo                        Discord
+echo                        Telegram
+echo                        WeChat
+echo                        WhatsApp
+echo                        ------------------
+echo                        Dropbox
 echo                        Gimp
 echo                        Inkscape
+echo                        Microsoft Office
+echo                        Obsidian
+echo                        OBS Studio
+echo                        Visual Studio Code
 echo                        Zoom
 echo                        ------------------
-echo.
-
-echo.
-echo 6) (Games)             ------------------
 echo                        Steam
 echo                        Epic Games Launcher
-echo                        Osu!
 echo                        ------------------
-echo.
-
-echo.
-echo 7) (Clean Setup)
-echo.
-
-echo.
-echo 8) (Complete Setup)
 echo.
 
 echo.
@@ -367,152 +372,83 @@ echo.
 set /p choice=Type your choice then press Enter:
 if %choice%==1 (goto :batch3)
 if %choice%==2 (goto :batch4)
-if %choice%==3 (goto :batch5)
-if %choice%==4 (goto :batch6)
-if %choice%==5 (goto :batch7)
-if %choice%==6 (goto :batch8)
-if %choice%==7 (goto :batch9)
-if %choice%==8 (goto :batch10)
 if %choice%==0 (goto :mainMenu) else (goto :wrongChoice1)
 
 :batch3
-call:install Microsoft.DirectX
-call:install Microsoft.VC++2015-2022Redist-x64
 call:install Microsoft.dotNetFramework
+call:install Microsoft.DirectX
+call:install Microsoft.VCRedist.2015+.x64
+call:install 7zip.7zip
+call:install Lexikos.AutoHotkey
+call:install Microsoft.Sysinternals.Autoruns
+call:install hluk.CopyQ
+call:install File-New-Project.EarTrumpet
+call:install voidtools.Everything.Lite
+call:install AdrianAllard.FileConverter
+call:install Greenshot.Greenshot
+call:install Microsoft.PowerToys
+call:install BleachBit.BleachBit
+call:install Klocman.BulkCrapUninstaller
+call:install Notepad++.Notepad++
+call:install Rufus.Rufus
+call:install SumatraPDF.SumatraPDF
+call:install VideoLAN.VLC.Nightly
+call:install AntibodySoftware.WizTree
+call:install XnSoft.XnViewMP
+call:install LibreWolf.LibreWolf
+
 echo Press any key to return to the Install Menu.
 pause >nul
 goto :installMenu
 
 :batch4
-call:install File-New-Project.EarTrumpet
-call:install IDRIX.VeraCrypt
-call:install Cryptomator.Cryptomator
+call:install Microsoft.dotNetFramework
+call:install Microsoft.DirectX
+call:install Microsoft.VCRedist.2015+.x64
 call:install 7zip.7zip
-call:install voidtools.Everything
-call:install Notepad++.Notepad++
-call:install IrfanSkiljan.IrfanView
+call:install Lexikos.AutoHotkey
+call:install Microsoft.Sysinternals.Autoruns
 call:install hluk.CopyQ
+call:install File-New-Project.EarTrumpet
+call:install voidtools.Everything.Lite
+call:install AdrianAllard.FileConverter
+call:install Greenshot.Greenshot
+call:install Microsoft.PowerToys
+call:install Bitwarden.Bitwarden
 call:install BleachBit.BleachBit
 call:install Klocman.BulkCrapUninstaller
-call:install Lexikos.AutoHotkey
-call:install AntibodySoftware.WizTree
-call:install Microsoft.VisualStudioCode
-call:install OBSProject.OBSStudio
-call:install qBittorrent.qBittorrent
-call:install VideoLAN.VLC
-call:install Bitwarden.Bitwarden
+call:install Cryptomator.Cryptomator
 call:install GitHub.GitHubDesktop.Beta
-call:install AdrienAllard.FileConverter
-echo Press any key to return to the Install Menu.
-pause >nul
-goto :installMenu
-
-:batch5
+call:install Notepad++.Notepad++
+call:install qBittorrent.qBittorrent
+call:install Rufus.Rufus
+call:install SumatraPDF.SumatraPDF
+call:install IDRIX.VeraCrypt
+call:install VideoLAN.VLC.Nightly
+call:install AntibodySoftware.WizTree
+call:install XnSoft.XnViewMP
+call:install Brave.Brave
 call:install LibreWolf.LibreWolf
-call:install Mozilla.Thunderbird.Beta
 call:install NordVPN.NordVPN
+call:install Mozilla.Thunderbird.Beta -v "107.0b1"
 call:install TorProject.TorBrowser
-echo Press any key to return to the Install Menu.
-pause >nul
-goto :installMenu
-
-:batch6
+call:install VivaldiTechnologies.Vivaldi
+call:install Discord.Discord
 call:install Telegram.TelegramDesktop.Beta
 call:install Tencent.WeChat
-call:install 9NKSQGP7F2NH :: Whatsapp
-call:install Discord.Discord
-echo Press any key to return to the Install Menu.
-pause >nul
-goto :installMenu
-
-:batch7
+call:install WhatsApp.WhatsApp.Beta
 call:install Dropbox.Dropbox
-call:install Microsoft.Office
-call:install Obsidian.Obsidian
-call:install SumatraPDF.SumatraPDF
 call:install GIMP.GIMP
 call:install Inkscape.Inkscape
-call:install Zoom.Zoom
-echo Press any key to return to the Install Menu.
-pause >nul
-goto :installMenu
-
-:batch8
-call:install Valve.Steam
-call:install EpicGames.EpicGamesLauncher
-call:install Peppy.Osu!
-echo Press any key to return to the Install Menu.
-pause >nul
-goto :installMenu
-
-:batch9
-call:install Microsoft.DirectX
-call:install Microsoft.VC++2015-2022Redist-x64
-call:install Microsoft.dotNetFramework
-call:install File-New-Project.EarTrumpet
-call:install 7zip.7zip
-call:install voidtools.Everything
-call:install Notepad++.Notepad++
-call:install IrfanSkiljan.IrfanView
-call:install hluk.CopyQ
-call:install BleachBit.BleachBit
-call:install Klocman.BulkCrapUninstaller
-call:install Lexikos.AutoHotkey
-call:install AntibodySoftware.WizTree
-call:install Microsoft.VisualStudioCode
-call:install OBSProject.OBSStudio
-call:install qBittorrent.qBittorrent
-call:install VideoLAN.VLC
-call:install LibreWolf.LibreWolf
-call:install NordVPN.NordVPN
-call:install TorProject.TorBrowser
-call:install AdrienAllard.FileConverter
-
-echo Press any key to return to the Install Menu.
-pause >nul
-goto :installMenu
-
-:batch10
-call:install Microsoft.DirectX
-call:install Microsoft.VC++2015-2022Redist-x64
-call:install Microsoft.dotNetFramework
-call:install File-New-Project.EarTrumpet
-call:install IDRIX.VeraCrypt
-call:install Cryptomator.Cryptomator
-call:install 7zip.7zip
-call:install voidtools.Everything
-call:install Notepad++.Notepad++
-call:install IrfanSkiljan.IrfanView
-call:install hluk.CopyQ
-call:install BleachBit.BleachBit
-call:install Klocman.BulkCrapUninstaller
-call:install Lexikos.AutoHotkey
-call:install AntibodySoftware.WizTree
-call:install Microsoft.VisualStudioCode
-call:install OBSProject.OBSStudio
-call:install qBittorrent.qBittorrent
-call:install VideoLAN.VLC
-call:install Bitwarden.Bitwarden
-call:install GitHub.GitHubDesktop.Beta
-call:install AdrienAllard.FileConverter
-call:install LibreWolf.LibreWolf
-call:install Mozilla.Thunderbird.Beta
-call:install NordVPN.NordVPN
-call:install TorProject.TorBrowser
-call:install Telegram.TelegramDesktop.Beta
-call:install Tencent.WeChat
-call:install 9NKSQGP7F2NH :: Whatsapp
-call:install Discord.Discord
-call:install Dropbox.Dropbox
 call:install Microsoft.Office
 call:install Obsidian.Obsidian
-call:install SumatraPDF.SumatraPDF
-call:install GIMP.GIMP
-call:install Inkscape.Inkscape
+call:install OBSProject.OBSStudio.Pre-release
+call:install Microsoft.VisualStudioCode
 call:install Zoom.Zoom
 call:install Valve.Steam
 call:install EpicGames.EpicGamesLauncher
-call:install Peppy.Osu!
+
+
 echo Press any key to return to the Install Menu.
 pause >nul
 goto :installMenu
