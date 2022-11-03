@@ -430,7 +430,7 @@ call:install XnSoft.XnViewMP
 call:install Brave.Brave
 call:install LibreWolf.LibreWolf
 call:install NordVPN.NordVPN
-call:install Mozilla.Thunderbird.Beta -v "107.0b1"
+call:install Mozilla.Thunderbird.Beta
 call:install TorProject.TorBrowser
 call:install VivaldiTechnologies.Vivaldi
 call:install Discord.Discord
