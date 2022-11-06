@@ -293,6 +293,7 @@ echo                        EarTrumpet
 echo                        Everything
 echo                        File Converter
 echo                        Greenshot
+echo                        NtLite
 echo                        PowerToys
 echo                        ------------------
 echo                        BleachBit
@@ -323,6 +324,7 @@ echo                        EarTrumpet
 echo                        Everything
 echo                        File Converter
 echo                        Greenshot
+echo                        NtLite
 echo                        PowerToys
 echo                        ------------------
 echo                        BitWarden
@@ -386,6 +388,7 @@ call:install File-New-Project.EarTrumpet
 call:install voidtools.Everything.Lite
 call:install AdrianAllard.FileConverter
 call:install Greenshot.Greenshot
+call:install Nlitesoft.NTLite
 call:install Microsoft.PowerToys
 call:install BleachBit.BleachBit
 call:install Klocman.BulkCrapUninstaller
@@ -413,6 +416,7 @@ call:install File-New-Project.EarTrumpet
 call:install voidtools.Everything.Lite
 call:install AdrianAllard.FileConverter
 call:install Greenshot.Greenshot
+call:install Nlitesoft.NTLite
 call:install Microsoft.PowerToys
 call:install Bitwarden.Bitwarden
 call:install BleachBit.BleachBit
