@@ -452,7 +452,6 @@ call:install Zoom.Zoom
 call:install Valve.Steam
 call:install EpicGames.EpicGamesLauncher
 
-
 echo Press any key to return to the Install Menu.
 pause >nul
 goto :installMenu
