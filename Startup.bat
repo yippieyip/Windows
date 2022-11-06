@@ -308,6 +308,8 @@ echo                        XnViewMP
 echo                        ------------------
 echo                        Librewolf
 echo                        ------------------
+echo                        Playnite
+echo                        ------------------
 echo.
 
 echo.
@@ -362,6 +364,7 @@ echo                        OBS Studio
 echo                        Visual Studio Code
 echo                        Zoom
 echo                        ------------------
+echo                        Playnite
 echo                        Steam
 echo                        Epic Games Launcher
 echo                        ------------------
@@ -399,6 +402,7 @@ call:install VideoLAN.VLC.Nightly
 call:install AntibodySoftware.WizTree
 call:install XnSoft.XnViewMP
 call:install LibreWolf.LibreWolf
+call:install Playnite.Playnite
 
 echo Press any key to return to the Install Menu.
 pause >nul
@@ -449,6 +453,7 @@ call:install Obsidian.Obsidian
 call:install OBSProject.OBSStudio.Pre-release
 call:install Microsoft.VisualStudioCode
 call:install Zoom.Zoom
+call:install Playnite.Playnite
 call:install Valve.Steam
 call:install EpicGames.EpicGamesLauncher
 
