@@ -389,7 +389,7 @@ call:install Microsoft.Sysinternals.Autoruns
 call:install hluk.CopyQ
 call:install File-New-Project.EarTrumpet
 call:install voidtools.Everything.Lite
-call:install AdrianAllard.FileConverter
+call:install AdrienAllard.FileConverter
 call:install Greenshot.Greenshot
 call:install Nlitesoft.NTLite
 call:install Microsoft.PowerToys
@@ -418,7 +418,7 @@ call:install Microsoft.Sysinternals.Autoruns
 call:install hluk.CopyQ
 call:install File-New-Project.EarTrumpet
 call:install voidtools.Everything.Lite
-call:install AdrianAllard.FileConverter
+call:install AdrienAllard.FileConverter
 call:install Greenshot.Greenshot
 call:install Nlitesoft.NTLite
 call:install Microsoft.PowerToys
