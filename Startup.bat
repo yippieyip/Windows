@@ -368,6 +368,8 @@ echo                        Playnite
 echo                        Steam
 echo                        Epic Games Launcher
 echo                        ------------------
+echo                        VMWare Workstation Pro
+echo                        ------------------
 echo.
 
 echo.
@@ -456,6 +458,7 @@ call:install Zoom.Zoom
 call:install Playnite.Playnite
 call:install Valve.Steam
 call:install EpicGames.EpicGamesLauncher
+call:install VMware.WorkstationPro
 
 echo Press any key to return to the Install Menu.
 pause >nul
