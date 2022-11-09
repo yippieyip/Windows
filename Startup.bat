@@ -351,6 +351,7 @@ echo                        TorBrowser
 echo                        Vivaldi
 echo                        ------------------
 echo                        Discord
+echo                        Signal
 echo                        Telegram
 echo                        WeChat
 echo                        WhatsApp
@@ -444,6 +445,7 @@ call:install Mozilla.Thunderbird.Beta
 call:install TorProject.TorBrowser
 call:install VivaldiTechnologies.Vivaldi
 call:install Discord.Discord
+call:install OpenWhisperSystems.Signal.Beta
 call:install Telegram.TelegramDesktop.Beta
 call:install Tencent.WeChat
 call:install 9NBDXK71NK08 :: WhatsApp
