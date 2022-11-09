@@ -293,7 +293,6 @@ echo                        EarTrumpet
 echo                        Everything
 echo                        File Converter
 echo                        Greenshot
-echo                        NtLite
 echo                        PowerToys
 echo                        ------------------
 echo                        BleachBit
@@ -307,8 +306,6 @@ echo                        WizTree
 echo                        XnViewMP
 echo                        ------------------
 echo                        Librewolf
-echo                        ------------------
-echo                        Playnite
 echo                        ------------------
 echo.
 
@@ -328,6 +325,7 @@ echo                        File Converter
 echo                        Greenshot
 echo                        NtLite
 echo                        PowerToys
+echo                        VMWare Workstation Pro
 echo                        ------------------
 echo                        BitWarden
 echo                        BleachBit
@@ -365,11 +363,11 @@ echo                        OBS Studio
 echo                        Visual Studio Code
 echo                        Zoom
 echo                        ------------------
+echo                        Epic Games Launcher
 echo                        Playnite
 echo                        Steam
-echo                        Epic Games Launcher
 echo                        ------------------
-echo                        VMWare Workstation Pro
+echo                        Stremio
 echo                        ------------------
 echo.
 
@@ -394,7 +392,6 @@ call:install File-New-Project.EarTrumpet
 call:install voidtools.Everything.Lite
 call:install AdrienAllard.FileConverter
 call:install Greenshot.Greenshot
-call:install Nlitesoft.NTLite
 call:install Microsoft.PowerToys
 call:install BleachBit.BleachBit
 call:install Klocman.BulkCrapUninstaller
@@ -405,7 +402,6 @@ call:install VideoLAN.VLC.Nightly
 call:install AntibodySoftware.WizTree
 call:install XnSoft.XnViewMP
 call:install LibreWolf.LibreWolf
-call:install Playnite.Playnite
 
 echo Press any key to return to the Install Menu.
 pause >nul
@@ -425,6 +421,7 @@ call:install AdrienAllard.FileConverter
 call:install Greenshot.Greenshot
 call:install Nlitesoft.NTLite
 call:install Microsoft.PowerToys
+call:install VMware.WorkstationPro
 call:install Bitwarden.Bitwarden
 call:install BleachBit.BleachBit
 call:install Klocman.BulkCrapUninstaller
@@ -457,10 +454,10 @@ call:install Obsidian.Obsidian
 call:install OBSProject.OBSStudio.Pre-release
 call:install Microsoft.VisualStudioCode
 call:install Zoom.Zoom
+call:install EpicGames.EpicGamesLauncher
 call:install Playnite.Playnite
 call:install Valve.Steam
-call:install EpicGames.EpicGamesLauncher
-call:install VMware.WorkstationPro
+call:install Stremio.Stremio
 
 echo Press any key to return to the Install Menu.
 pause >nul
