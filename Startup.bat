@@ -364,7 +364,6 @@ echo                        Visual Studio Code
 echo                        Zoom
 echo                        ------------------
 echo                        Epic Games Launcher
-echo                        Playnite
 echo                        Steam
 echo                        ------------------
 echo                        Stremio
@@ -455,7 +454,6 @@ call:install OBSProject.OBSStudio.Pre-release
 call:install Microsoft.VisualStudioCode
 call:install Zoom.Zoom
 call:install EpicGames.EpicGamesLauncher
-call:install Playnite.Playnite
 call:install Valve.Steam
 call:install Stremio.Stremio
 
