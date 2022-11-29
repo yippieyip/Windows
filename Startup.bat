@@ -355,6 +355,7 @@ echo                        WeChat
 echo                        WhatsApp
 echo                        ------------------
 echo                        Dropbox
+echo                        Eagle
 echo                        Gimp
 echo                        Inkscape
 echo                        Microsoft Office
@@ -446,6 +447,7 @@ call:install Telegram.TelegramDesktop.Beta
 call:install Tencent.WeChat
 call:install 9NBDXK71NK08 :: WhatsApp
 call:install Dropbox.Dropbox
+call:install ogdesign.Eagle
 call:install GIMP.GIMP
 call:install Inkscape.Inkscape
 call:install Microsoft.Office
