@@ -8,6 +8,12 @@ Taskkill /IM gxxcef.exe /T /F & ::  Garena
 Taskkill /IM gxxsvc.exe /T /F & ::  Garena
 sc config "GarenaPlatform" start= disabled
 
+:Garena
+Taskkill /IM RiotClientCrashHandler.exe /T /F
+Taskkill /IM RiotClientServices.exe /T /F
+Taskkill /IM RiotClientUx.exe /T /F
+Taskkill /IM RiotClientUxRender.exe /T /F
+
 
 :Adobe
 Taskkill /IM acrotray.exe /T /F 
@@ -21,9 +27,12 @@ Taskkill /IM AdobePCBroker.exe /T /F
 
 :VMWare
 Taskkill /IM vmware-authd.exe /T /F
-Taskkill /IM vmware-tray.exe /T /F 
-Taskkill /IM vmware-usbarbitrator64.exe /T /F 
-
+Taskkill /IM vmware-tray.exe /T /F
+Taskkill /IM vmware-usbarbitrator64.exe /T /F
+Taskkill /IM vmnat.exe /T /F
+Taskkill /IM vmnetdhcp.exe /T /F
+Taskkill /IM vmware-authd.exe /T /F
+Taskkill /IM vmware-usbarbitrator64.exe /T /F
 
 :WindowsBloat
 Taskkill /IM Microsoft.Photos.exe /T /F
