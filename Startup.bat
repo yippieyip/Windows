@@ -395,7 +395,7 @@ call:install Brave.Brave
 call:install LibreWolf.LibreWolf
 call:install NordVPN.NordVPN
 call:install qBittorrent.qBittorrent
-call:install Mozilla.Thunderbird.Beta
+call:install Mozilla.Thunderbird
 call:install TorProject.TorBrowser
 
 ::Socials
