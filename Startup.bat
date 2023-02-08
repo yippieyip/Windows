@@ -24,12 +24,6 @@ echo                       ------------------
 echo.
 
 echo.
-echo 3) (Install)           ------------------
-echo                           Quick install
-echo                        ------------------
-echo.
-
-echo.
 echo 0) (Quit)             ------------------
 echo                              Quit
 echo                       ------------------
@@ -38,7 +32,6 @@ echo.
 set /p choice=Type your choice then press Enter:
 if %choice%==1 (goto :debloater) 
 if %choice%==2 (goto :tweaksMenu)
-if %choice%==3 (goto :installMenu)
 if %choice%==0 (exit) else (goto :wrongChoice)
 
 :wrongChoice
